@@ -69,6 +69,9 @@ mapdata <- cpue_dat |>
 # Create the map!  --------------------------------------------------------
 # This could probably be done more simply but I am very much a novice when it comes to maps. So you get the very painstakingly constructed version.
 
+# If needed, load local copy of the data:
+load("data/rebs_cpue_dat.Rdata")
+
 legendtitle <- bquote(log(CPUE(kg / km^2)))
 
 f1 <- ggplot() +
