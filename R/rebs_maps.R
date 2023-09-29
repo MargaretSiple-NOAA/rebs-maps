@@ -157,3 +157,7 @@ figure <- f4 +
 
 
 figure
+
+png("rebs_map_logcpue.png", width = 8, height = 5, units = "in", res = 200)
+figure
+dev.off()
