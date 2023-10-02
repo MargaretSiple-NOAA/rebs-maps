@@ -19,5 +19,6 @@ library(ggplot2)
 ```
 
 # Map
-The code in `R/` produces this map:
+The code in `R/` produces this map. I log-transformed the CPUE because there is one haul in the SE that totally consumes the color scale if you don't log-transform it, so easier to see smaller variations this way. But it's only two lines in the code that's different, so it's easy to change!
+
 ![REBS map 1](https://github.com/MargaretSiple-NOAA/rebs-maps-2023/blob/main/rebs_map_logcpue.png?raw=true)
